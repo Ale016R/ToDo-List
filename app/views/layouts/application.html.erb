@@ -7,10 +7,46 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <script src="https://kit.fontawesome.com/1aa79d6b90.js" crossorigin="anonymous"></script>
+
   </head>
 
   <body>
-    <%= yield %>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <%= link_to "ToDo List", root_path, class: "navbar-brand" %>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><%= link_to "Sign up", new_user_registration_path %></li>
+          <% if current_user.present? %>
+            <li><%= button_to "Sign Out", destroy_user_session_path, method: :delete %></li>
+          <%else%>
+            <li><%= link_to "Log In", new_user_session_path %></li>
+          <%end%>
+        </ul>
+          <% if user_signed_in? %>
+            <%= link_to "New Item", new_item_path, class: "navbar-text navbar-link navbar-right" %>
+          <%end%>
+
+      </div>
+    
+    </nav>
+
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+    <div class="container" id="divyy">
+      <%= yield %>
+    </div>
+    
+  <footer>
+      <div class="container p-4"></div>
+
+      <div class="text-center p-3">
+        Bootcamp project Ruby on Rails/Laserants
+      </div>
+  </footer>
+
+
   </body>
 </html>
