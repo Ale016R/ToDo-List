@@ -7,3 +7,5 @@ When you start the application, the first thing you will see is the page to log 
 For each user, there will be different tasks. And these tasks will only be displayed within the account they belong to. To test this function, I recommend creating two users and in each user create different tasks (You can create a task in the upper right corner).
 
 ![image](https://user-images.githubusercontent.com/86500891/176039618-c53194d0-480b-4903-b6f6-68208ff47631.png)
+
+With this application, you can create a task, display its details (by clicking on the title of each task), delete a task, edit a task and mark it as completed. The application will tell you when you created and when you completed a task. 
