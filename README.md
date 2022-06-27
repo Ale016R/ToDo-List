@@ -16,3 +16,5 @@ With this application, you can create a task, display its details (by clicking o
 
 ![image](https://user-images.githubusercontent.com/86500891/176045509-119c068c-1e30-4d99-bda8-92eef537e483.png)
 
+When creating a task, it is mandatory that it has a title, so if the title is not entered, the page will not perform the option to create a task.
+
