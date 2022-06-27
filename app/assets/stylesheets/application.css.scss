@@ -17,7 +17,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-/* Mixins, variables, etc... */
+
 
 @mixin nav_link_hover {
 	transition: 0.4s;
@@ -44,8 +44,7 @@ a {
 .navbar {
 	font-family: "Courier New", Courier, monospace;
 	text-transform: uppercase;
-	position: fixed;
-	width: 100%;
+
 }
 
 .navbar-default {
