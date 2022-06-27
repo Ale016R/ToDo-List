@@ -44,7 +44,8 @@ a {
 .navbar {
 	font-family: "Courier New", Courier, monospace;
 	text-transform: uppercase;
-	
+	position: fixed;
+	width: 100%;
 }
 
 .navbar-default {
