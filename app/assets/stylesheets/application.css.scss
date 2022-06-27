@@ -43,7 +43,7 @@ a {
 
 .navbar {
 	font-family: "Courier New", Courier, monospace;
-	text-transform: uppercase;
+
 
 }
 
@@ -64,10 +64,15 @@ a {
 	}
 
 	.navbar-brand {
-		color: #fff;
+		color: #D1F2EB;
 		letter-spacing: 4.25px;
 		font-size: xx-large;
 		font-weight: bolder;
+	
+	}
+
+	h4 {
+		font-weight: bold;
 	
 	}
 
@@ -104,7 +109,7 @@ a {
     background-color: #222;
     border-color: #222;
 
-  }
+}
 
 footer {
     background-color: black;
@@ -112,3 +117,11 @@ footer {
     color: #fff;
 }
 
+.jumbotron {
+	background-color: #D1F2EB;
+    h1 {
+		font-weight: 900;
+		text-shadow: 3px 3px 3px #ababab;
+	}
+	width: 100%;
+  }
