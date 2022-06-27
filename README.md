@@ -9,3 +9,10 @@ For each user, there will be different tasks. And these tasks will only be displ
 ![image](https://user-images.githubusercontent.com/86500891/176039618-c53194d0-480b-4903-b6f6-68208ff47631.png)
 
 With this application, you can create a task, display its details (by clicking on the title of each task), delete a task, edit a task and mark it as completed. The application will tell you when you created and when you completed a task. 
+
+![image](https://user-images.githubusercontent.com/86500891/176045368-7c77ab3e-1fd5-425e-a9df-5d77d94cd883.png)
+
+![image](https://user-images.githubusercontent.com/86500891/176045451-a2ccbd2d-b1ad-407a-9004-8577acb292e0.png)
+
+![image](https://user-images.githubusercontent.com/86500891/176045509-119c068c-1e30-4d99-bda8-92eef537e483.png)
+
