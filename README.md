@@ -14,10 +14,12 @@ With this application, you can create a task, display its details (by clicking o
 
 ![image](https://user-images.githubusercontent.com/86500891/176045451-a2ccbd2d-b1ad-407a-9004-8577acb292e0.png)
 
+When creating a task, it is mandatory that it has a title, so if the title is not entered, the page will not perform the option to create a task.
+
 ![image](https://user-images.githubusercontent.com/86500891/176045509-119c068c-1e30-4d99-bda8-92eef537e483.png)
 
-When creating a task, it is mandatory that it has a title, so if the title is not entered, the page will not perform the option to create a task.
+When creating an account, it is mandatory to enter an email address and password.
 
 ![image](https://user-images.githubusercontent.com/86500891/176049523-3dbb3193-0122-4ee1-923d-03480d79113d.png)
 
-When creating an account, it is mandatory to enter an email address and password.
+
