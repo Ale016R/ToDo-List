@@ -11,3 +11,7 @@
 | ------------- | ------------- |
 | Ruby | 2.7.2 |
 | Rails | 6.1.5 |
+
+## Operating system
+
+Ubuntu (using Windows Subsystem for Linux)
