@@ -21,3 +21,4 @@ Ubuntu (using Windows Subsystem for Linux)
 ```ruby
 rails server (application_name)
 ```
+You can see it by going to the link http://localhost:3000/
