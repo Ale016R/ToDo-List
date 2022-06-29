@@ -15,3 +15,7 @@
 ## Operating system
 
 Ubuntu (using Windows Subsystem for Linux)
+
+## To run the application
+
+rails server (application_name)
