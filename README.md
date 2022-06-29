@@ -18,4 +18,6 @@ Ubuntu (using Windows Subsystem for Linux)
 
 ## To run the application
 
+```ruby
 rails server (application_name)
+```
