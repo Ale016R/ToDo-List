@@ -19,6 +19,6 @@ Ubuntu (using Windows Subsystem for Linux)
 ## To run the application
 
 ```ruby
-rails server (application_name)
+rails server TodDoList
 ```
 You can see it by going to the link http://localhost:3000/
